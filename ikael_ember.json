@@ -1,0 +1,369 @@
+{
+  "nombre": "Ikael'Ember",
+  "imagen": "Ikael'Ember.png",
+  "clase": {
+    "tipo": "Paladín",
+    "subtipo": "Juramento de los Vigilantes",
+    "descripcion": "Odiar hadas y seres no mundanos"
+  },
+  "trasfondo": "Soldado",
+  "raza": "Aarakocra",
+  "nivel": 5,
+  "estadisticas": {
+    "fuerza": 18,
+    "destreza": 12,
+    "constitucion": 14,
+    "inteligencia": 10,
+    "sabiduria": 13,
+    "carisma": 16
+  },
+  "bonus_competencia": {
+    "cantidad": 3,
+    "stats_competencia": [
+      "Atletismo",
+      "Percepción",
+      "Intimidación",
+      "Historia"
+    ]
+  },
+  "tiradas_salvacion_competencia": [
+    "sabiduria",
+    "carisma"
+  ],
+  "CA": {
+    "total": 18,
+    "fuentes": [
+      {
+        "nombre": "Cota de Malla",
+        "valor": 16,
+        "temporal": false
+      },
+      {
+        "nombre": "Escudo",
+        "valor": 2,
+        "temporal": false
+      }
+    ]
+  },
+  "CD": 14,
+  "velocidad": 30,
+  "vida": {
+    "actual": 54,
+    "maxima": 54,
+    "temporal": 0
+  },
+  "golpes_salvacion": {
+    "exitos": [false, false, false],
+    "fallos": [false, false, false]
+  },
+  "dados_golpe": {
+    "tipo": "d10",
+    "cantidad": 5
+  },
+  "percepcion_pasiva": 11,
+  "inspiracion": false,
+  "espacios_conjuros": [
+    {
+      "nivel": 1,
+      "usados": 0,
+      "total": 4
+    },
+    {
+      "nivel": 2,
+      "usados": 0,
+      "total": 2
+    }
+  ],
+  "modificador_conjuro": {
+    "estadistica": "CAR"
+  },
+  "oro": 39,
+  "habilidades_conjuros": [
+    {
+      "nombre": "Detectar el Bien y el Mal",
+      "nivel": "1",
+      "accion": "Acción",
+      "alcance": "9m",
+      "dado_dano": "",
+      "tipo_dano": "",
+      "usos_max": 0,
+      "usos_usados": 0,
+      "recarga": "",
+      "descripcion": "Concentración, hasta 10 minutos. Sabes si hay aberraciones, celestiales, elementales, feéricos, demonios o muertos vivientes en 9m. También sabes si hay un lugar u objeto consagrado o profanado."
+    },
+    {
+      "nombre": "Protección del Bien y el Mal",
+      "nivel": "1",
+      "accion": "Acción",
+      "alcance": "Toque",
+      "dado_dano": "",
+      "tipo_dano": "",
+      "usos_max": 0,
+      "usos_usados": 0,
+      "recarga": "",
+      "descripcion": "Concentración, hasta 10 minutos. Toca a una criatura. Mientras dura: desventaja en ataques de aberraciones, celestiales, elementales, feéricos, demonios y no-muertos contra el objetivo."
+    },
+    {
+      "nombre": "Golpe de Represalia",
+      "nivel": "1",
+      "accion": "Reacción",
+      "alcance": "Contacto",
+      "dado_dano": "2d8",
+      "tipo_dano": "Psíquico",
+      "usos_max": 0,
+      "usos_usados": 0,
+      "recarga": "",
+      "descripcion": "Reacción cuando recibes daño. El atacante recibe 2d8 de daño psíquico."
+    },
+    {
+      "nombre": "Santuario",
+      "nivel": "1",
+      "accion": "Acción bonificada",
+      "alcance": "9m",
+      "dado_dano": "",
+      "tipo_dano": "",
+      "usos_max": 0,
+      "usos_usados": 0,
+      "recarga": "",
+      "descripcion": "Cualquier criatura que intente atacar al objetivo debe superar una TS de Sabiduría o elegir otro objetivo. No protege si el objetivo realiza acciones ofensivas."
+    },
+    {
+      "nombre": "Curar Heridas",
+      "nivel": "1",
+      "accion": "Acción",
+      "alcance": "Toque",
+      "dado_dano": "1d8",
+      "tipo_dano": "Curación",
+      "usos_max": 0,
+      "usos_usados": 0,
+      "recarga": "",
+      "descripcion": "Toca a una criatura y recupera 1d8 + modificador de Carisma puntos de golpe."
+    },
+    {
+      "nombre": "Ojo Vigilante",
+      "nivel": "2",
+      "accion": "Acción bonificada",
+      "alcance": "9m",
+      "dado_dano": "",
+      "tipo_dano": "",
+      "usos_max": 0,
+      "usos_usados": 0,
+      "recarga": "",
+      "descripcion": "Concentración, 1 hora. Creas un ojo mágico invisible. Puedes ver a través de él con visión normal y en la oscuridad a 9m. Acción bonificada para moverlo hasta 9m."
+    },
+    {
+      "nombre": "Zona de la Verdad",
+      "nivel": "2",
+      "accion": "Acción",
+      "alcance": "4,5m",
+      "dado_dano": "",
+      "tipo_dano": "",
+      "usos_max": 0,
+      "usos_usados": 0,
+      "recarga": "",
+      "descripcion": "Las criaturas en una esfera de 4,5m no pueden mentir voluntariamente. TS Carisma para resistir entrar a la zona."
+    }
+  ],
+  "trucos_extras": [
+    {
+      "nombre": "Imposición de Manos",
+      "nivel": "",
+      "accion": "Acción",
+      "alcance": "Toque",
+      "dado_dano": "",
+      "tipo_dano": "Curación",
+      "usos_max": 25,
+      "usos_usados": 0,
+      "recarga": "Descanso largo",
+      "descripcion": "Piscina de 25 PG/día. Toca para curar cualquier cantidad hasta el máximo. 5 PG: cura una enfermedad o veneno. No funciona en muertos vivientes o constructos."
+    },
+    {
+      "nombre": "Sentido Divino",
+      "nivel": "",
+      "accion": "Acción",
+      "alcance": "18m",
+      "dado_dano": "",
+      "tipo_dano": "",
+      "usos_max": 3,
+      "usos_usados": 0,
+      "recarga": "Descanso largo",
+      "descripcion": "3 usos/día. Hasta tu siguiente turno, conoces la ubicación de celestiales, demonios y no-muertos en 18m. También lugares o personas consagradas o profanadas."
+    },
+    {
+      "nombre": "Golpe Divino",
+      "nivel": "",
+      "accion": "Acción bonificada",
+      "alcance": "Toque",
+      "dado_dano": "2d8",
+      "tipo_dano": "Radiante / Necrótico (vs feérico)",
+      "usos_max": 0,
+      "usos_usados": 0,
+      "recarga": "",
+      "descripcion": "1 vez/turno. Acción bonificada antes de atacar: el siguiente ataque causa +2d8 de daño radiante (o necrótico si el objetivo es feérico o de otro plano)."
+    },
+    {
+      "nombre": "Aura de Devoción",
+      "nivel": "",
+      "accion": "Pasivo",
+      "alcance": "3m",
+      "dado_dano": "",
+      "tipo_dano": "",
+      "usos_max": 0,
+      "usos_usados": 0,
+      "recarga": "",
+      "descripcion": "Nivel 3+. Tú y criaturas aliadas a 3m sois inmunes a ser hechizados mientras estés consciente."
+    },
+    {
+      "nombre": "Vuelo (Aarakocra)",
+      "nivel": "",
+      "accion": "Pasivo",
+      "alcance": "15m vuelo",
+      "dado_dano": "",
+      "tipo_dano": "",
+      "usos_max": 0,
+      "usos_usados": 0,
+      "recarga": "",
+      "descripcion": "Velocidad de vuelo 15m. No puedes volar con armadura pesada a menos que tengas entrenamiento especial. Actualmente equipado con cota de malla: vuelo restringido."
+    }
+  ],
+  "dotes": [
+    {
+      "nombre": "Guerrero Mágico",
+      "nivel": "",
+      "accion": "Pasivo",
+      "alcance": "",
+      "dado_dano": "",
+      "tipo_dano": "",
+      "usos_max": 1,
+      "usos_usados": 0,
+      "recarga": "Descanso corto",
+      "descripcion": "Puedes infundir tus armas y armadura con magia divina. Una vez por descanso corto: +1 a las tiradas de ataque y daño con armas infundidas durante 1 minuto."
+    },
+    {
+      "nombre": "Alerta",
+      "nivel": "",
+      "accion": "Pasivo",
+      "alcance": "",
+      "dado_dano": "",
+      "tipo_dano": "",
+      "usos_max": 0,
+      "usos_usados": 0,
+      "recarga": "",
+      "descripcion": "+5 a la iniciativa. No puedes ser sorprendido mientras estés consciente. Las criaturas ocultas no obtienen ventaja al atacarte."
+    }
+  ],
+  "armas": [
+    {
+      "nombre": "Espada Larga",
+      "dano_dado": "d8",
+      "tipo_dano": "Cortante",
+      "stat_impactar": "FUE",
+      "stat_dano": "FUE",
+      "bonus_impactar": 0,
+      "bonus_dano": 0,
+      "versatil": "d10",
+      "descripcion": "Espada estándar de acero forjada en el Norte. Equilibrada y fiable."
+    },
+    {
+      "nombre": "Martillo de Guerra — Lanza de Huesos",
+      "dano_dado": "d8",
+      "tipo_dano": "Contundente",
+      "stat_impactar": "FUE",
+      "stat_dano": "FUE",
+      "bonus_impactar": 1,
+      "bonus_dano": 1,
+      "versatil": "d10",
+      "descripcion": "Martillo de guerra con refuerzos de hueso mágico (+1 impactar y daño). Forjado con fragmentos de hueso de un gigante de escarcha derrotado. Emite un leve frío al tocar metal feérico. Especialmente efectivo contra seres del plano feérico."
+    },
+    {
+      "nombre": "Garras Naturales",
+      "dano_dado": "d4",
+      "tipo_dano": "Cortante",
+      "stat_impactar": "FUE",
+      "stat_dano": "FUE",
+      "bonus_impactar": 0,
+      "bonus_dano": 0,
+      "versatil": "",
+      "descripcion": "Ataques naturales de Aarakocra. Siempre disponibles, no requieren acción de equipar."
+    }
+  ],
+  "objetos": [
+    {
+      "nombre": "Cota de Malla",
+      "cantidad": 1,
+      "peso": 20,
+      "valor": 75,
+      "descripcion": "Armadura pesada estándar. CA base 16. Desventaja en sigilo."
+    },
+    {
+      "nombre": "Escudo",
+      "cantidad": 1,
+      "peso": 3,
+      "valor": 10,
+      "descripcion": "+2 CA. Forjado con acero del Norte, tiene grabado un ojo estilizado."
+    },
+    {
+      "nombre": "Amuleto de los Vigilantes",
+      "cantidad": 1,
+      "peso": 0.1,
+      "valor": 0,
+      "descripcion": "Símbolo sagrado de su orden. Permite usar poderes divinos. Contador de cargas: 3/día."
+    },
+    {
+      "nombre": "Kit de aventurero",
+      "cantidad": 1,
+      "peso": 5,
+      "valor": 10,
+      "descripcion": "Contiene: cuerda de seda (15m), yesca, raciones (5 días), cantimplora, manta."
+    },
+    {
+      "nombre": "Pergamino sellado",
+      "cantidad": 1,
+      "peso": 0.1,
+      "valor": 0,
+      "descripcion": "Órdenes de misión de su comandante. Todavía sin abrir."
+    },
+    {
+      "nombre": "Plumas de recuerdo",
+      "cantidad": 3,
+      "peso": 0,
+      "valor": 0,
+      "descripcion": "Plumas de sus caídos compañeros Aarakocra. Objeto personal de gran valor sentimental."
+    }
+  ],
+  "habilidades": [
+    { "nombre": "Atletismo",     "stat": "fuerza",       "competencia": true,  "experto": false },
+    { "nombre": "Acrobacias",    "stat": "destreza",     "competencia": false, "experto": false },
+    { "nombre": "Sigilo",        "stat": "destreza",     "competencia": false, "experto": false },
+    { "nombre": "Arcana",        "stat": "inteligencia", "competencia": false, "experto": false },
+    { "nombre": "Historia",      "stat": "inteligencia", "competencia": true,  "experto": false },
+    { "nombre": "Investigación", "stat": "inteligencia", "competencia": false, "experto": false },
+    { "nombre": "Naturaleza",    "stat": "inteligencia", "competencia": false, "experto": false },
+    { "nombre": "Religión",      "stat": "inteligencia", "competencia": false, "experto": false },
+    { "nombre": "Perspicacia",   "stat": "sabiduria",    "competencia": false, "experto": false },
+    { "nombre": "Medicina",      "stat": "sabiduria",    "competencia": false, "experto": false },
+    { "nombre": "Percepción",    "stat": "sabiduria",    "competencia": true,  "experto": false },
+    { "nombre": "Supervivencia", "stat": "sabiduria",    "competencia": false, "experto": false },
+    { "nombre": "Trato Animales","stat": "sabiduria",    "competencia": false, "experto": false },
+    { "nombre": "Engaño",        "stat": "carisma",      "competencia": false, "experto": false },
+    { "nombre": "Intimidación",  "stat": "carisma",      "competencia": true,  "experto": false },
+    { "nombre": "Actuación",     "stat": "carisma",      "competencia": false, "experto": false },
+    { "nombre": "Persuasión",    "stat": "carisma",      "competencia": false, "experto": false },
+    { "nombre": "Juego de Manos","stat": "destreza",     "competencia": false, "experto": false }
+  ],
+  "extras": [
+    "Competencias: Armaduras ligeras, medias y pesadas. Escudos. Armas simples y marciales.",
+    "Idiomas: Común, Aarakocra, Celestial.",
+    "Herramientas: Vehículos terrestres, juego de naipes.",
+    "Rasgo de trasfondo (Soldado): Rango militar. Puedes alojarte gratis en guarniciones militares y la gente te reconoce como soldado.",
+    "Resistencia al daño: Ninguna actualmente."
+  ],
+  "extras_relaciones_familiares": [
+    "Veterano de la guerra del Norte, sirvió bajo el Capitán Aldric durante 4 años.",
+    "Tiene una deuda de honor con la familia Stormfeather de Aarakocra.",
+    "Su compañero de escuadrón, Derian, murió protegiéndole de una emboscada feérica.",
+    "Desconfía profundamente de cualquier ser del Feywild o con sangre fey.",
+    "Lleva tatuada en el ala derecha la marca de su unidad: el Ojo del Vigía."
+  ],
+  "mascotas": []
+}
